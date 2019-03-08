@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[wlunc - 个人博客]]></title><description><![CDATA[wlunc的个人博客]]></description><link>https://wlunc.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Mar 2019 04:53:38 GMT</lastBuildDate><item><title><![CDATA[ReactNative问题汇总]]></title><description><![CDATA[RN作为跨端的移动端开发框架，生态已经很丰富了，但是在开发的时候还是会出现一些奇怪问题，这里汇总一下。 项目在升级到0.57.1的时候碰到 这个问题，参考这个 链接 解决 iOS 就版本rn项目在xcode 1…]]></description><link>https://wlunc.github.io/reactnativeproblem/</link><guid isPermaLink="false">https://wlunc.github.io/reactnativeproblem/</guid><content:encoded>&lt;p&gt;RN作为跨端的移动端开发框架，生态已经很丰富了，但是在开发的时候还是会出现一些奇怪问题，这里汇总一下。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[wlunc - 个人博客]]></title><description><![CDATA[wlunc的个人博客]]></description><link>https://wlunc.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Mar 2019 04:58:51 GMT</lastBuildDate><item><title><![CDATA[ReactNative问题汇总]]></title><description><![CDATA[RN作为跨端的移动端开发框架，生态已经很丰富了，但是在开发的时候还是会出现一些奇怪问题，这里汇总一下。 项目在升级到0.57.1的时候碰到 这个问题，参考这个 链接 解决 iOS 就版本rn项目在xcode 1…]]></description><link>https://wlunc.github.io/reactnativeproblem/</link><guid isPermaLink="false">https://wlunc.github.io/reactnativeproblem/</guid><content:encoded>&lt;p&gt;RN作为跨端的移动端开发框架，生态已经很丰富了，但是在开发的时候还是会出现一些奇怪问题，这里汇总一下。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;项目在升级到0.57.1的时候碰到&lt;code class=&quot;language-text&quot;&gt;Unable to resolve module &amp;#39;./../react-transform-hmr/lib/index.js&amp;#39;&lt;/code&gt;这个问题，参考这个&lt;a href=&quot;https://github.com/facebook/react-native/issues/21490#issuecomment-427240356&quot;&gt;链接&lt;/a&gt;解决&lt;/li&gt;
 &lt;/ul&gt;
@@ -110,6 +110,7 @@ git remote add origin git@github.com:username/project-name.git&lt;/code&gt;&lt;/
 &lt;/ul&gt;
 &lt;p&gt;是不是很简单，博客的设置，&lt;a href=&quot;https://dev.greglobinski.com/install-blog-starter/&quot;&gt;How to install, setup and add new content to a Blog starter&lt;/a&gt;中有描述，可以参照修改。&lt;/p&gt;
 &lt;h3&gt;国内通用修改&lt;/h3&gt;
+&lt;p&gt;由于gitment会将clientid等放在源码设置，会暴露信息。目前本站暂停使用gitment。&lt;/p&gt;
 &lt;p&gt;由于这个starter的作者是国外的，在一些组件选用上都是国外的，比如评论组件用的是facebook，国内使用很不方便，既然我们是部署在github上，那我为啥不选用github做评论？这里我选用&lt;a href=&quot;https://github.com/imsun/gitment&quot;&gt;gitment&lt;/a&gt;组件的。那么我们看看如何替换吧。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
